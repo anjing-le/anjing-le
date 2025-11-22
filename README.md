@@ -1,16 +1,14 @@
-## Hi there 👋
+😶 精益求精 人无完人<br/>
+| <a href="https://github.com/anjing-le" target="_blank"> <img align="center" src="https://github-readme-stats.vercel.app/api?username=anjing-le&show_icons=true&theme=onedark&hide_border=true" alt="安静's github stats" /> </a> | <a href="https://github.com/anjing-le" target="_blank"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anjing-le&layout=compact&theme=onedark&hide_border=true" /></a> |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
 
-<!--
-**anjing-le/anjing-le** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💬 我是最棒的<br/>
+⚡ 我是<br/>
+🤔 安静 --><br/>
 
-Here are some ideas to get you started:
+| [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anjing-le&repo=agent-scaffolding&show_owner=false&theme=ayu-mirage)](https://github.com/anjing-le/agent-scaffolding) | [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anjing-le&repo=agent-scaffolding&show_owner=false&theme=ayu-mirage)](https://github.com/anjing-le/agent-scaffolding) |
+| :----------------------------------------------------------: | ------------------------------------------------------------ |
+| [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anjing-le&repo=agent-scaffolding&show_owner=false&theme=material-palenight)](https://github.com/anjing-le/agent-scaffolding) | [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anjing-le&repo=agent-scaffolding&show_owner=false&theme=material-palenight)](https://github.com/anjing-le/agent-scaffolding) |
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+​	
