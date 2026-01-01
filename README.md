@@ -32,8 +32,7 @@
 |:--:|:--:|
 | [![agent-dev-scaffolding](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-dev-scaffolding&show_owner=false&theme=transparent)](https://github.com/anjing-le/agent-dev-scaffolding) | [![agent-aigc](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-aigc&show_owner=false&theme=transparent)](https://github.com/anjing-le/agent-aigc) |
 | [![agent-wealth-copilot](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-wealth-copilot&show_owner=false&theme=transparent)](https://github.com/anjing-le/agent-wealth-copilot) | [![agent-knowledge](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-knowledge&show_owner=false&theme=transparent)](https://github.com/anjing-le/agent-knowledge) |
-| [![agent-english](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-english&show_owner=false&theme=transparent)](https://github.com/anjing-le/agent-english) | |
-
+| [![agent-english](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-english&show_owner=false&theme=transparent)](https://github.com/anjing-le/agent-english) | [![agent-customer-service](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-customer-service&show_owner=false&theme=transparent)](https://github.com/anjing-le/agent-customer-service) |
 ---
 
 ##  Project 
