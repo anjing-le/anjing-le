@@ -14,15 +14,26 @@
 
 ---
 
-## 开源项目
+## Infra · 基础设施
 
-面向 AI 应用开发的全栈实战项目，每个都跑得通、教得了、落得地。
+可复用的工程基座，传统互联网 + AI 时代的核心组件。
 
 |  |  |
 |:--:|:--:|
-| [![agent-dev-scaffolding](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-dev-scaffolding&show_owner=false&theme=graywhite)](https://github.com/anjing-le/agent-dev-scaffolding) | [![agent-aigc](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-aigc&show_owner=false&theme=graywhite)](https://github.com/anjing-le/agent-aigc) |
-| [![agent-knowledge](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-knowledge&show_owner=false&theme=graywhite)](https://github.com/anjing-le/agent-knowledge) | [![agent-customer-service](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-customer-service&show_owner=false&theme=graywhite)](https://github.com/anjing-le/agent-customer-service) |
-| [![agent-code-animator](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-code-animator&show_owner=false&theme=graywhite)](https://github.com/anjing-le/agent-code-animator) | |
+| [![infra-dev-scaffolding](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=infra-dev-scaffolding&show_owner=false&theme=graywhite)](https://github.com/anjing-le/infra-dev-scaffolding) | [![infra-auth](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=infra-auth&show_owner=false&theme=graywhite)](https://github.com/anjing-le/infra-auth) |
+| [![infra-api-gateway](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=infra-api-gateway&show_owner=false&theme=graywhite)](https://github.com/anjing-le/infra-api-gateway) | [![infra-llm-gateway](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=infra-llm-gateway&show_owner=false&theme=graywhite)](https://github.com/anjing-le/infra-llm-gateway) |
+| [![infra-skill-hub](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=infra-skill-hub&show_owner=false&theme=graywhite)](https://github.com/anjing-le/infra-skill-hub) | |
+
+---
+
+## Agent · 教学项目
+
+面向 AI 应用开发的全栈实战项目，每个覆盖不同的上下文工程思路。
+
+|  |  |
+|:--:|:--:|
+| [![agent-aigc](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-aigc&show_owner=false&theme=graywhite)](https://github.com/anjing-le/agent-aigc) | [![agent-knowledge](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-knowledge&show_owner=false&theme=graywhite)](https://github.com/anjing-le/agent-knowledge) |
+| [![agent-customer-service](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-customer-service&show_owner=false&theme=graywhite)](https://github.com/anjing-le/agent-customer-service) | |
 
 ---
 
@@ -37,4 +48,3 @@
 | **anjing-richfree** | 财富自由工具平台，AI + 投资监控 |
 | **anjing-polish** | 语音润色工具 |
 | **anjing-voice** | 语音识别引擎 |
-
