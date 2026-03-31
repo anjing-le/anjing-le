@@ -14,6 +14,21 @@
 |:--:|:--:|
 | [![agent-dev-scaffolding](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-dev-scaffolding&show_owner=false&theme=graywhite)](https://github.com/anjing-le/agent-dev-scaffolding) | [![agent-aigc](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-aigc&show_owner=false&theme=graywhite)](https://github.com/anjing-le/agent-aigc) |
 | [![agent-knowledge](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-knowledge&show_owner=false&theme=graywhite)](https://github.com/anjing-le/agent-knowledge) | [![agent-customer-service](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-customer-service&show_owner=false&theme=graywhite)](https://github.com/anjing-le/agent-customer-service) |
+| [![agent-code-animator](https://github-readme-stats-zeta-eosin-95.vercel.app/api/pin/?username=anjing-le&repo=agent-code-animator&show_owner=false&theme=graywhite)](https://github.com/anjing-le/agent-code-animator) | |
+
+---
+
+## 私有产品
+
+以下项目不开源，持续迭代中。
+
+| 产品 | 简介 |
+|------|------|
+| **anjing-anjing** | 个人 AI 桌面助手，12 赛道统一入口 |
+| **anjing-aigc** | AIGC 图文创作服务，适配小红书等平台 |
+| **richfree** | 财富自由工具平台，AI + 投资监控 |
+| **anjing-polish** | 语音润色工具 |
+| **anjing-voice** | 语音识别引擎 |
 
 ---
 
