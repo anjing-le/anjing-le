@@ -8,6 +8,10 @@
 
 🔗 [anjing.cc](https://anjing.cc)
 
+|  |  |
+|:--:|:--:|
+| <img src="https://github-readme-stats-zeta-eosin-95.vercel.app/api?username=anjing-le&show_icons=true&theme=graywhite&hide_border=true" /> | <img src="https://github-readme-stats-zeta-eosin-95.vercel.app/api/top-langs/?username=anjing-le&layout=compact&theme=graywhite&hide_border=true" /> |
+
 ---
 
 ## 开源项目
@@ -34,8 +38,3 @@
 | **anjing-polish** | 语音润色工具 |
 | **anjing-voice** | 语音识别引擎 |
 
----
-
-|  |  |
-|:--:|:--:|
-| <img src="https://github-readme-stats-zeta-eosin-95.vercel.app/api?username=anjing-le&show_icons=true&theme=graywhite&hide_border=true" /> | <img src="https://github-readme-stats-zeta-eosin-95.vercel.app/api/top-langs/?username=anjing-le&layout=compact&theme=graywhite&hide_border=true" /> |
