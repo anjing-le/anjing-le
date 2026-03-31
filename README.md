@@ -46,5 +46,3 @@
 | **anjing-anjing** | 个人 AI 桌面助手，12 赛道统一入口 |
 | **anjing-aigc** | AIGC 图文创作服务，适配小红书等平台 |
 | **anjing-richfree** | 财富自由工具平台，AI + 投资监控 |
-| **anjing-polish** | 语音润色工具 |
-| **anjing-voice** | 语音识别引擎 |
