@@ -1,4 +1,6 @@
-<h1 align="center">安静</h1>
+<p align="center">
+  <img src="./assets/profile-banner.svg" alt="Anjing profile banner" />
+</p>
 
 <p align="center">
   <strong>一线全栈 & 大模型应用工程师 · 独立交易员 & 金融策略研究者</strong>
@@ -14,6 +16,14 @@
   <a href="#products">Products</a> ·
   <a href="#principles">Principles</a>
 </p>
+
+---
+
+## About
+
+- 我在公开一条从工程基础设施到 AI 应用落地的实践路线。
+- 开源代码本身不是要售卖的商品，更像持续迭代的作品集、学习路线和能力证明。
+- 未来如果提供个人服务，会更偏向定制化落地、工程共创、策略咨询和长期支持。
 
 ---
 
