@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Anjing profile banner" />
+  <img src="./assets/profile-banner.png" alt="Anjing hand-drawn AIGC workshop banner" />
 </p>
 
 <p align="center">
