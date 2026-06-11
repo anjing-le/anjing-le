@@ -7,7 +7,8 @@
 </p>
 
 <p align="center">
-  公开一条从工程基础设施到 AI 应用落地的实践路线。
+  <strong>About</strong><br />
+  我关注能真实上线的 AI 应用基础设施：从全栈工程脚手架、网关、权限、模型接入，到 Agent、知识库和内容生产。这个主页记录公开项目、产品实验和工程路线，尽量把一线实践沉淀成可复用的开源资产。
 </p>
 
 <p align="center">
@@ -21,10 +22,6 @@
 ---
 
 ## Signals
-
-<p align="center">
-  <img src="./assets/github-signals.svg" alt="Anjing GitHub signals card" />
-</p>
 
 <table>
   <tr>
@@ -67,10 +64,7 @@
   </tr>
   <tr>
     <td width="50%"><a href="https://github.com/anjing-le/agent-customer-service"><img src="./assets/project-cards/agent-customer-service.svg" alt="agent-customer-service card" /></a></td>
-    <td width="50%" valign="top">
-      <strong>Teaching Notes</strong><br />
-      <sub>每个项目都服务于一个上下文工程主题：调度、检索、兜底、治理和可复制交付。</sub>
-    </td>
+    <td width="50%"></td>
   </tr>
 </table>
 
