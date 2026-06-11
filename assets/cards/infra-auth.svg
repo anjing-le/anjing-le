@@ -1,0 +1,14 @@
+<svg width="560" height="220" viewBox="0 0 560 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">infra-auth</title>
+  <desc id="desc">A hand-drawn card for the authentication and permission project.</desc>
+  <rect width="560" height="220" rx="22" fill="#fffdf7"/>
+  <path d="M27 26C96 18 169 25 247 20C335 14 426 21 531 27C540 79 528 141 536 195C438 202 354 198 273 202C181 206 93 196 29 202C20 143 27 86 27 26Z" fill="#fff7ed" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="66" cy="62" r="24" fill="#111827"/>
+  <text x="52" y="73" fill="#fffdf7" font-family="Comic Sans MS, Chalkboard SE, ui-sans-serif, sans-serif" font-size="30" font-weight="800">4</text>
+  <path d="M433 55c32 0 52 18 52 48v17c0 33-20 52-52 63-32-11-52-30-52-63v-17c0-30 20-48 52-48Z" fill="#fed7aa" stroke="#111827" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="433" cy="112" r="15" fill="#fffdf7" stroke="#111827" stroke-width="4"/>
+  <path d="M433 127v30" stroke="#111827" stroke-width="5" stroke-linecap="round"/>
+  <text x="56" y="124" fill="#111827" font-family="Comic Sans MS, Chalkboard SE, ui-sans-serif, sans-serif" font-size="42" font-weight="800">infra-auth</text>
+  <text x="58" y="158" fill="#374151" font-family="Comic Sans MS, Chalkboard SE, ui-sans-serif, sans-serif" font-size="22" font-weight="700">统一认证与权限</text>
+  <text x="58" y="188" fill="#6b7280" font-family="Comic Sans MS, Chalkboard SE, ui-sans-serif, sans-serif" font-size="18">用户体系 · RBAC · OAuth · 接口级权限</text>
+</svg>
