@@ -4,8 +4,6 @@
 
 <p align="center">
   <strong>AI infra · Agent · 产品化</strong><br />
-  从 <strong>工程脚手架</strong>、<strong>网关与权限</strong>、<strong>模型接入</strong> 到 <strong>Agent / 知识库 / 内容生产</strong>。<br />
-  这里沉淀可运行、可复用、可持续迭代的开源项目，把一线实践整理成清晰的工程路线。
 </p>
 
 <p align="center">
