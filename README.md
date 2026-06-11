@@ -75,9 +75,3 @@
 <p align="center">
   <img src="./assets/products-showcase.svg" alt="Anjing product showcase card" />
 </p>
-
-| Product | Direction |
-| --- | --- |
-| **anjing-anjing** | 个人 AI 桌面助手，12 条成长赛道的统一入口 |
-| **anjing-aigc** | AIGC 图文创作服务，面向小红书等内容平台 |
-| **anjing-richfree** | 财富自由工具平台，AI + 投资监控 |
