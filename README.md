@@ -25,6 +25,10 @@
 - 开源代码本身不是要售卖的商品，更像持续迭代的作品集、学习路线和能力证明。
 - 未来如果提供个人服务，会更偏向定制化落地、工程共创、策略咨询和长期支持。
 
+<p align="center">
+  <img src="./assets/open-source-route.svg" alt="Anjing open source route card" />
+</p>
+
 ---
 
 ## Focus
@@ -56,23 +60,18 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/anjing-le/infra-dev-scaffolding"><strong>infra-dev-scaffolding</strong></a><br />
-      <sub>全栈工程母版。前后端、契约、质量门禁和 AI 协作规则一次配齐，新项目可以直接复制起步。</sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/anjing-le/infra-skill-hub"><strong>infra-skill-hub</strong></a><br />
-      <sub>AI Skill 注册、发现、调度和治理中心，让 Agent 和业务系统按需调用能力。</sub>
-    </td>
+    <td width="50%"><a href="https://github.com/anjing-le/infra-dev-scaffolding"><img src="./assets/project-cards/infra-dev-scaffolding.svg" alt="infra-dev-scaffolding card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/infra-auth"><img src="./assets/project-cards/infra-auth.svg" alt="infra-auth card" /></a></td>
   </tr>
   <tr>
+    <td width="50%"><a href="https://github.com/anjing-le/infra-api-gateway"><img src="./assets/project-cards/infra-api-gateway.svg" alt="infra-api-gateway card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/infra-llm-gateway"><img src="./assets/project-cards/infra-llm-gateway.svg" alt="infra-llm-gateway card" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/anjing-le/infra-skill-hub"><img src="./assets/project-cards/infra-skill-hub.svg" alt="infra-skill-hub card" /></a></td>
     <td width="50%" valign="top">
-      <a href="https://github.com/anjing-le/infra-llm-gateway"><strong>infra-llm-gateway</strong></a><br />
-      <sub>统一大模型供应商、Key 池、流量控制、Token 统计和故障切换的 LLM 算力入口。</sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/anjing-le/infra-auth"><strong>infra-auth</strong></a> · <a href="https://github.com/anjing-le/infra-api-gateway"><strong>infra-api-gateway</strong></a><br />
-      <sub>用户、权限、OAuth、路由、限流、鉴权和日志等传统互联网基础组件。</sub>
+      <strong>Infra Roadmap</strong><br />
+      <sub>这些项目负责把常见工程能力抽出来：启动项目、接用户体系、接流量入口、接模型能力、接 Skill 调度。</sub>
     </td>
   </tr>
 </table>
@@ -81,20 +80,11 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/anjing-le/agent-knowledge"><strong>agent-knowledge</strong></a><br />
-      <sub>RAG 智能知识库。覆盖文档解析、切片、Embedding、向量检索、上下文组装和引用回传。</sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/anjing-le/agent-aigc"><strong>agent-aigc</strong></a><br />
-      <sub>全模态 AIGC 创作平台。重点是多模型调度、参数配置和 Prompt 优化链路。</sub>
-    </td>
+    <td width="50%"><a href="https://github.com/anjing-le/agent-aigc"><img src="./assets/project-cards/agent-aigc.svg" alt="agent-aigc card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/agent-knowledge"><img src="./assets/project-cards/agent-knowledge.svg" alt="agent-knowledge card" /></a></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/anjing-le/agent-customer-service"><strong>agent-customer-service</strong></a><br />
-      <sub>智能电商客服。用 LLM 回复、知识检索和规则兜底做可靠性设计。</sub>
-    </td>
+    <td width="50%"><a href="https://github.com/anjing-le/agent-customer-service"><img src="./assets/project-cards/agent-customer-service.svg" alt="agent-customer-service card" /></a></td>
     <td width="50%" valign="top">
       <strong>Teaching Notes</strong><br />
       <sub>每个项目都服务于一个上下文工程主题：调度、检索、兜底、治理和可复制交付。</sub>
