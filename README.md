@@ -3,12 +3,9 @@
 </p>
 
 <p align="center">
-  <strong>一线全栈 & 大模型应用工程师 · 独立交易员 & 金融策略研究者</strong>
-</p>
-
-<p align="center">
-  <strong>About</strong><br />
-  我关注能真实上线的 AI 应用基础设施：从全栈工程脚手架、网关、权限、模型接入，到 Agent、知识库和内容生产。这个主页记录公开项目、产品实验和工程路线，尽量把一线实践沉淀成可复用的开源资产。
+  <strong>AI 应用基础设施 · Agent 工程 · 产品化实验</strong><br />
+  从 <strong>工程脚手架</strong>、<strong>网关与权限</strong>、<strong>模型接入</strong> 到 <strong>Agent / 知识库 / 内容生产</strong>。<br />
+  这里沉淀可运行、可复用、可持续迭代的开源项目，把一线实践整理成清晰的工程路线。
 </p>
 
 <p align="center">
