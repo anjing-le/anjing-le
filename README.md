@@ -7,11 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://anjing.cc">anjing.cc</a> ·
-  <a href="#signals">Signals</a> ·
-  <a href="#route">Route</a> ·
-  <a href="#projects">Projects</a> ·
-  <a href="#products">Products</a>
+  <a href="https://anjing.cc">anjing.cc</a>
 </p>
 
 ---
