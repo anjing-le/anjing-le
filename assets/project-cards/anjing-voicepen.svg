@@ -2,9 +2,9 @@
   <title id="title">anjing-voicepen</title>
   <desc id="desc">桌面语音输入工具，录音、STT、润色、复制和粘贴。</desc>
   <rect width="560" height="220" rx="24" fill="#fffdf7"/>
-  <path d="M29 25C99 18 171 27 244 21C332 14 425 20 532 27C539 79 531 138 536 196C442 203 351 197 274 202C184 207 96 197 29 201C20 142 27 84 29 25Z" fill="#f8fbff" stroke="#60a5fa" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M29 25C99 18 171 27 244 21C332 14 425 20 532 27C539 79 531 138 536 196C442 203 351 197 274 202C184 207 96 197 29 201C20 142 27 84 29 25Z" fill="#f0fdfa" stroke="#2dd4bf" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
   <circle cx="63" cy="62" r="24" fill="#111827"/>
-  <text x="53" y="73" fill="#fffdf7" font-family="Comic Sans MS, Chalkboard SE, ui-sans-serif, sans-serif" font-size="30" font-weight="800">6</text>
+  <text x="53" y="73" fill="#fffdf7" font-family="Comic Sans MS, Chalkboard SE, ui-sans-serif, sans-serif" font-size="30" font-weight="800">1</text>
 
   <g transform="translate(390 48)">
     <rect x="52" y="0" width="56" height="92" rx="28" fill="#dbeafe" stroke="#111827" stroke-width="5"/>
