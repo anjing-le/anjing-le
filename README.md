@@ -12,21 +12,6 @@
 
 ---
 
-## Signals
-
-<table>
-  <tr>
-    <td width="50%">
-      <img src="https://github-readme-stats-zeta-eosin-95.vercel.app/api?username=anjing-le&show_icons=true&hide_border=true&bg_color=fffdf7&title_color=111827&text_color=374151&icon_color=f59e0b" alt="GitHub stats" />
-    </td>
-    <td width="50%">
-      <img src="https://github-readme-stats-zeta-eosin-95.vercel.app/api/top-langs/?username=anjing-le&layout=compact&hide_border=true&bg_color=fffdf7&title_color=111827&text_color=374151" alt="Top languages" />
-    </td>
-  </tr>
-</table>
-
----
-
 ## Route
 
 <p align="center">
@@ -42,7 +27,7 @@
 <table>
   <tr>
     <td width="50%"><a href="https://github.com/anjing-le/infra-dev-scaffolding"><img src="./assets/project-cards/infra-dev-scaffolding.svg" alt="infra-dev-scaffolding card" /></a></td>
-    <td width="50%"><a href="https://github.com/anjing-le/infra-llm-gateway"><img src="./assets/project-cards/infra-llm-gateway.svg" alt="infra-llm-gateway card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/anjing-ai-platform"><img src="./assets/project-cards/anjing-ai-platform.svg" alt="anjing-ai-platform card" /></a></td>
   </tr>
 </table>
 
@@ -75,3 +60,18 @@
 <p align="center">
   <img src="./assets/products-showcase.svg" alt="Anjing product showcase card" />
 </p>
+
+---
+
+## Signals
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github-readme-stats-zeta-eosin-95.vercel.app/api?username=anjing-le&show_icons=true&hide_border=true&bg_color=fffdf7&title_color=111827&text_color=374151&icon_color=f59e0b" alt="GitHub stats" />
+    </td>
+    <td width="50%">
+      <img src="https://github-readme-stats-zeta-eosin-95.vercel.app/api/top-langs/?username=anjing-le&layout=compact&hide_border=true&bg_color=fffdf7&title_color=111827&text_color=374151" alt="Top languages" />
+    </td>
+  </tr>
+</table>
