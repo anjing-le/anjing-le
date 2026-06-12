@@ -24,31 +24,31 @@
 
 ### Infra
 
-<table>
+<table width="100%">
   <tr>
-    <td width="50%"><a href="https://github.com/anjing-le/infra-dev-scaffolding"><img src="./assets/project-cards/infra-dev-scaffolding.svg?v=20260612-2" alt="infra-dev-scaffolding card" /></a></td>
-    <td width="50%"><a href="https://github.com/anjing-le/anjing-ai-platform"><img src="./assets/project-cards/anjing-ai-platform.svg?v=20260612-2" alt="anjing-ai-platform card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/infra-dev-scaffolding"><img width="100%" src="./assets/project-cards/infra-dev-scaffolding.svg?v=20260612-2" alt="infra-dev-scaffolding card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/anjing-ai-platform"><img width="100%" src="./assets/project-cards/anjing-ai-platform.svg?v=20260612-2" alt="anjing-ai-platform card" /></a></td>
   </tr>
 </table>
 
 ### Agent Projects
 
-<table>
+<table width="100%">
   <tr>
-    <td width="50%"><a href="https://github.com/anjing-le/agent-aigc"><img src="./assets/project-cards/agent-aigc.svg?v=20260612-2" alt="agent-aigc card" /></a></td>
-    <td width="50%"><a href="https://github.com/anjing-le/agent-knowledge"><img src="./assets/project-cards/agent-knowledge.svg?v=20260612-2" alt="agent-knowledge card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/agent-aigc"><img width="100%" src="./assets/project-cards/agent-aigc.svg?v=20260612-2" alt="agent-aigc card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/agent-knowledge"><img width="100%" src="./assets/project-cards/agent-knowledge.svg?v=20260612-2" alt="agent-knowledge card" /></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/anjing-le/agent-customer-service"><img src="./assets/project-cards/agent-customer-service.svg?v=20260612-2" alt="agent-customer-service card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/agent-customer-service"><img width="100%" src="./assets/project-cards/agent-customer-service.svg?v=20260612-2" alt="agent-customer-service card" /></a></td>
     <td width="50%"></td>
   </tr>
 </table>
 
 ### Creator Tools
 
-<table>
+<table width="100%">
   <tr>
-    <td width="50%"><a href="https://github.com/anjing-le/anjing-voicepen"><img src="./assets/project-cards/anjing-voicepen.svg?v=20260612-2" alt="anjing-voicepen card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/anjing-voicepen"><img width="100%" src="./assets/project-cards/anjing-voicepen.svg?v=20260613-1" alt="anjing-voicepen card" /></a></td>
     <td width="50%"></td>
   </tr>
 </table>
