@@ -26,8 +26,8 @@
 
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/anjing-le/infra-dev-scaffolding"><img src="./assets/project-cards/infra-dev-scaffolding.svg" alt="infra-dev-scaffolding card" /></a></td>
-    <td width="50%"><a href="https://github.com/anjing-le/anjing-ai-platform"><img src="./assets/project-cards/anjing-ai-platform.svg" alt="anjing-ai-platform card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/infra-dev-scaffolding"><img src="./assets/project-cards/infra-dev-scaffolding.svg?v=20260612-2" alt="infra-dev-scaffolding card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/anjing-ai-platform"><img src="./assets/project-cards/anjing-ai-platform.svg?v=20260612-2" alt="anjing-ai-platform card" /></a></td>
   </tr>
 </table>
 
@@ -35,11 +35,11 @@
 
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/anjing-le/agent-aigc"><img src="./assets/project-cards/agent-aigc.svg" alt="agent-aigc card" /></a></td>
-    <td width="50%"><a href="https://github.com/anjing-le/agent-knowledge"><img src="./assets/project-cards/agent-knowledge.svg" alt="agent-knowledge card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/agent-aigc"><img src="./assets/project-cards/agent-aigc.svg?v=20260612-2" alt="agent-aigc card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/agent-knowledge"><img src="./assets/project-cards/agent-knowledge.svg?v=20260612-2" alt="agent-knowledge card" /></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/anjing-le/agent-customer-service"><img src="./assets/project-cards/agent-customer-service.svg" alt="agent-customer-service card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/agent-customer-service"><img src="./assets/project-cards/agent-customer-service.svg?v=20260612-2" alt="agent-customer-service card" /></a></td>
     <td width="50%"></td>
   </tr>
 </table>
@@ -48,7 +48,7 @@
 
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/anjing-le/anjing-voicepen"><img src="./assets/project-cards/anjing-voicepen.svg" alt="anjing-voicepen card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/anjing-voicepen"><img src="./assets/project-cards/anjing-voicepen.svg?v=20260612-2" alt="anjing-voicepen card" /></a></td>
     <td width="50%"></td>
   </tr>
 </table>
