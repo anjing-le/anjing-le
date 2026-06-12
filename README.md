@@ -68,7 +68,7 @@
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats-zeta-eosin-95.vercel.app/api?username=anjing-le&show_icons=true&hide_border=true&bg_color=fffdf7&title_color=111827&text_color=374151&icon_color=f59e0b" alt="GitHub stats" />
+      <img src="https://github-readme-stats-zeta-eosin-95.vercel.app/api?username=anjing-le&show_icons=true&include_all_commits=true&hide=contribs&hide_border=true&bg_color=fffdf7&title_color=111827&text_color=374151&icon_color=f59e0b&v=20260612-3" alt="GitHub stats" />
     </td>
     <td width="50%">
       <img src="https://github-readme-stats-zeta-eosin-95.vercel.app/api/top-langs/?username=anjing-le&layout=compact&hide_border=true&bg_color=fffdf7&title_color=111827&text_color=374151" alt="Top languages" />
