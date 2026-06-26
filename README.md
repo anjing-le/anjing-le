@@ -33,14 +33,23 @@
 
 ### Agent Projects
 
+七大 Agent 实战课：创作、知识、服务、执行、分析、审核、协作。
+
 <table width="100%">
   <tr>
-    <td width="50%"><a href="https://github.com/anjing-le/agent-aigc"><img width="100%" src="./assets/project-cards/agent-aigc.svg?v=20260612-2" alt="agent-aigc card" /></a></td>
-    <td width="50%"><a href="https://github.com/anjing-le/agent-knowledge"><img width="100%" src="./assets/project-cards/agent-knowledge.svg?v=20260612-2" alt="agent-knowledge card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/agent-aigc"><img width="100%" src="./assets/project-cards/agent-aigc.svg?v=20260626-1" alt="agent-aigc card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/agent-knowledge"><img width="100%" src="./assets/project-cards/agent-knowledge.svg?v=20260626-1" alt="agent-knowledge card" /></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/anjing-le/agent-customer-service"><img width="100%" src="./assets/project-cards/agent-customer-service.svg?v=20260612-2" alt="agent-customer-service card" /></a></td>
-    <td width="50%"></td>
+    <td width="50%"><a href="https://github.com/anjing-le/agent-customer-service"><img width="100%" src="./assets/project-cards/agent-customer-service.svg?v=20260626-1" alt="agent-customer-service card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/agent-order-ops"><img width="100%" src="./assets/project-cards/agent-order-ops.svg?v=20260626-1" alt="agent-order-ops card" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/anjing-le/agent-data-analyst"><img width="100%" src="./assets/project-cards/agent-data-analyst.svg?v=20260626-1" alt="agent-data-analyst card" /></a></td>
+    <td width="50%"><a href="https://github.com/anjing-le/agent-finance-reconcile"><img width="100%" src="./assets/project-cards/agent-finance-reconcile.svg?v=20260626-1" alt="agent-finance-reconcile card" /></a></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><a href="https://github.com/anjing-le/agent-project-copilot"><img width="50%" src="./assets/project-cards/agent-project-copilot.svg?v=20260626-1" alt="agent-project-copilot card" /></a></td>
   </tr>
 </table>
 
