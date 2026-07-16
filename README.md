@@ -15,7 +15,7 @@
 ## Route
 
 <p align="center">
-  <img src="./assets/open-source-route.svg" alt="Anjing open source route card" />
+  <img src="./assets/open-source-route.svg?v=20260717-1" alt="Anjing open source route card" />
 </p>
 
 ---
@@ -67,7 +67,7 @@
 ## Products
 
 <p align="center">
-  <img src="./assets/products-showcase.svg" alt="Anjing product showcase card" />
+  <img src="./assets/products-showcase.svg?v=20260717-1" alt="Anjing product showcase card" />
 </p>
 
 ---
