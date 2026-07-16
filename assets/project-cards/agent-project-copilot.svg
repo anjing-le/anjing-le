@@ -1,12 +1,12 @@
 <svg width="560" height="220" viewBox="0 0 560 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">agent-project-copilot</title>
   <desc id="desc">协作型 Agent，项目交付协作</desc>
-  <style>.text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}</style>
-  <rect x="1" y="1" width="558" height="218" rx="8" fill="#fff7f7" stroke="#f5d5dc" stroke-width="2"/>
-  <rect x="1" y="20" width="7" height="180" rx="3.5" fill="#e85d75"/>
-  <text class="text" x="36" y="42" fill="#be123c" font-size="14" font-weight="700">AGENT PROJECT</text>
-  <text class="text" x="36" y="96" fill="#111827" font-size="31" font-weight="800">agent-project-copilot</text>
-  <text class="text" x="36" y="137" fill="#334155" font-size="21" font-weight="600">项目交付协作</text>
-  <path d="M36 160H524" stroke="#ebc7cf"/>
-  <text class="text" x="36" y="190" fill="#64748b" font-size="16" font-weight="500">任务拆解 · 风险跟踪 · 周报复盘</text>
+  <style>.hand{font-family:"Comic Sans MS","Chalkboard SE","PingFang SC","Microsoft YaHei",ui-sans-serif,sans-serif;letter-spacing:0}</style>
+  <rect width="560" height="220" rx="16" fill="#fffdf7"/>
+  <path d="M15 17C82 7 158 18 228 12C315 5 394 16 545 14C551 73 542 149 548 204C444 214 350 203 273 209C182 217 83 205 15 208C9 147 18 79 15 17Z" fill="#fff7fb" stroke="#fb7185" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="hand" x="36" y="43" fill="#c94f69" font-size="14" font-weight="900">AGENT PROJECT</text>
+  <text class="hand" x="36" y="95" fill="#111827" font-size="30" font-weight="900">agent-project-copilot</text>
+  <text class="hand" x="36" y="137" fill="#374151" font-size="21" font-weight="800">项目交付协作</text>
+  <path d="M36 158C157 153 283 164 407 157C455 154 493 158 524 156" stroke="#fb7185" stroke-opacity="0.35" stroke-width="2.5" stroke-linecap="round"/>
+  <text class="hand" x="36" y="190" fill="#6b7280" font-size="16" font-weight="800">任务拆解 · 风险跟踪 · 周报复盘</text>
 </svg>
