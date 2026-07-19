@@ -58,7 +58,7 @@
 <table width="100%">
   <tr>
     <td width="50%"><a href="https://github.com/anjing-le/anjing-voicepen"><img width="100%" src="./assets/project-cards/anjing-voicepen.svg?v=20260716-2" alt="anjing-voicepen card" /></a></td>
-    <td width="50%"></td>
+    <td width="50%"><a href="https://github.com/anjing-le/anjing-scribe"><img width="100%" src="./assets/project-cards/anjing-scribe.svg?v=20260719-1" alt="anjing-scribe card" /></a></td>
   </tr>
 </table>
 
