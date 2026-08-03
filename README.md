@@ -53,12 +53,12 @@
   </tr>
 </table>
 
-### Creator Tools
+### Tools
 
 <table width="100%">
   <tr>
     <td width="50%"><a href="https://github.com/anjing-le/anjing-voicepen"><img width="100%" src="./assets/project-cards/anjing-voicepen.svg?v=20260613-1" alt="anjing-voicepen card" /></a></td>
-    <td width="50%"></td>
+    <td width="50%"><a href="https://github.com/anjing-le/anjing-link"><img width="100%" src="./assets/project-cards/anjing-link.svg?v=20260803-1" alt="anjing-link card" /></a></td>
   </tr>
 </table>
 
