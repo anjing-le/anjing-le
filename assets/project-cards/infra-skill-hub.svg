@@ -1,23 +1,12 @@
-<svg width="560" height="220" viewBox="0 0 560 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="560" height="220" viewBox="0 0 560 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">infra-skill-hub</title>
-  <desc id="desc">AI 能力注册中心 Skill 注册 · 发现 · 调度 · 治理</desc>
-  <rect width="560" height="220" rx="24" fill="#fffdf7"/>
-  <path d="M29 25C99 18 171 27 244 21C332 14 425 20 532 27C539 79 531 138 536 196C442 203 351 197 274 202C184 207 96 197 29 201C20 142 27 84 29 25Z" fill="#f7fff5" stroke="#79b36a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="63" cy="62" r="24" fill="#111827"/>
-  <text x="53" y="73" fill="#fffdf7" font-family="Comic Sans MS, Chalkboard SE, ui-sans-serif, sans-serif" font-size="30" font-weight="800">5</text>
-  <g transform="translate(390 48)"><circle cx="75" cy="34" r="31" fill="#fde68a" stroke="#111827" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="29" cy="105" r="20" fill="#bfdbfe" stroke="#111827" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="126" cy="105" r="20" fill="#fecaca" stroke="#111827" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M57 57l-20 31M92 58l25 30M50 105h56" stroke="#111827" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></g>
-  <text x="92" y="104" fill="#111827" font-family="Comic Sans MS, Chalkboard SE, ui-sans-serif, sans-serif" font-size="36" font-weight="800">infra-skill-hub</text>
-  
-  <text x="92" y="142" fill="#374151" font-family="Comic Sans MS, Chalkboard SE, ui-sans-serif, sans-serif" font-size="22" font-weight="800">AI 能力注册中心</text>
-  <text x="92" y="174" fill="#6b7280" font-family="Comic Sans MS, Chalkboard SE, ui-sans-serif, sans-serif" font-size="18" font-weight="700">Skill 注册 · 发现 · 调度 · 治理</text>
-  
-  <g transform="translate(23 94) scale(0.55)">
-    <path d="M25 5c9-8 24-5 31 2 9 8 8 24 1 32-8 9-25 9-34 1-10-9-8-27 2-35Z" fill="#ffd43b" stroke="#111827" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M20 23c7-5 11-16 19-17 5 9 13 10 24 17" stroke="#111827" stroke-width="3" stroke-linecap="round" fill="none"/>
-    <circle cx="34" cy="30" r="2.7" fill="#111827"/><circle cx="50" cy="30" r="2.7" fill="#111827"/>
-    <path d="M38 43c5 3 10 3 15 0" stroke="#111827" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-    <path d="M27 38l-7 4M59 38l7 4" stroke="#fb7185" stroke-width="2" stroke-linecap="round"/>
-    <path d="M23 64c14-12 42-12 55 1l10 42H12l11-43Z" fill="#111827" stroke="#111827" stroke-width="4" stroke-linejoin="round"/>
-    <path d="M35 68c6 8 16 8 22 0" stroke="#4b5563" stroke-width="3" stroke-linecap="round"/>
-  </g>
+  <desc id="desc">AI 能力注册中心</desc>
+  <style>.hand{font-family:"Comic Sans MS","Chalkboard SE","PingFang SC","Microsoft YaHei",ui-sans-serif,sans-serif;letter-spacing:0}</style>
+  <rect width="560" height="220" rx="16" fill="#fffdf7"/>
+  <path d="M14 15C88 8 153 19 224 13C309 6 390 14 546 17C550 66 544 154 547 205C441 213 352 203 271 210C176 216 82 204 16 208C8 144 16 75 14 15Z" fill="#f8fbff" stroke="#5b8def" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="hand" x="36" y="43" fill="#3f68ba" font-size="14" font-weight="900">INFRA</text>
+  <text class="hand" x="36" y="95" fill="#111827" font-size="34" font-weight="900">infra-skill-hub</text>
+  <text class="hand" x="36" y="137" fill="#374151" font-size="21" font-weight="800">AI 能力注册中心</text>
+  <path d="M36 158C157 153 283 164 407 157C455 154 493 158 524 156" stroke="#5b8def" stroke-opacity="0.35" stroke-width="2.5" stroke-linecap="round"/>
+  <text class="hand" x="36" y="190" fill="#6b7280" font-size="16" font-weight="800">Skill 注册 · 发现 · 调度 · 治理</text>
 </svg>
