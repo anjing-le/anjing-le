@@ -5,7 +5,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CARDS = ROOT / "assets" / "project-cards"
+ANIMATED = ROOT / "assets" / "animated"
+CARDS = ANIMATED / "project-cards"
 
 INK = "#111827"
 PAPER = "#fffdf7"
@@ -312,9 +313,9 @@ def main() -> None:
     for data in CARD_DATA:
         slug = data[0]
         (CARDS / f"{slug}.svg").write_text(clean(card_svg(*data)), encoding="utf-8")
-    (ROOT / "assets" / "open-source-route.svg").write_text(clean(route_svg()), encoding="utf-8")
-    (ROOT / "assets" / "products-showcase.svg").write_text(clean(products_svg()), encoding="utf-8")
-    (ROOT / "assets" / "github-signals.svg").write_text(clean(signals_svg()), encoding="utf-8")
+    (ANIMATED / "open-source-route.svg").write_text(clean(route_svg()), encoding="utf-8")
+    (ANIMATED / "products-showcase.svg").write_text(clean(products_svg()), encoding="utf-8")
+    (ANIMATED / "github-signals.svg").write_text(clean(signals_svg()), encoding="utf-8")
     print(f"Generated {len(CARD_DATA) + 3} SVG assets")
 
 
