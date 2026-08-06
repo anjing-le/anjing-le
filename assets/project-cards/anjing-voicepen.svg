@@ -3,29 +3,24 @@
   <desc id="desc">按下快捷键说话，完成语音转写、AI 润色和粘贴的桌面语音输入工具。</desc>
 
   <rect width="560" height="220" rx="24" fill="#fffdf7"/>
-  <path d="M29 25C99 18 171 27 244 21C332 14 425 20 532 27C539 79 531 138 536 196C442 203 351 197 274 202C184 207 96 197 29 201C20 142 27 84 29 25Z" fill="#f3faef" stroke="#79b36a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M29 25C99 18 171 27 244 21C332 14 425 20 532 27C539 79 531 138 536 196C442 203 351 197 274 202C184 207 96 197 29 201C20 142 27 84 29 25Z" fill="#fff4ee" stroke="#e98263" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <g transform="translate(377 42)">
-    <rect x="0" y="8" width="142" height="128" rx="13" fill="#fffdf7" stroke="#111827" stroke-width="5"/>
-    <path d="M0 36H142" stroke="#111827" stroke-width="4"/>
-    <circle cx="16" cy="22" r="3.5" fill="#ef8e83"/>
-    <circle cx="28" cy="22" r="3.5" fill="#ebc16b"/>
-    <circle cx="40" cy="22" r="3.5" fill="#79b36a"/>
+  <g transform="translate(365 42)">
+    <path d="M5 10H89C97 10 103 16 103 24V64C103 72 97 78 89 78H43L27 91L30 78H5C-3 78-9 72-9 64V24C-9 16-3 10 5 10Z" fill="#fffdf7" stroke="#111827" stroke-width="5" stroke-linejoin="round"/>
+    <circle cx="10" cy="44" r="5" fill="#e98263"/>
+    <path d="M23 44H32M39 37V51M47 31V57M55 38V50M63 34V54M71 40V48M79 36V52M87 44H93" stroke="#e98263" stroke-width="4" stroke-linecap="round"/>
+    <path d="M107 56C119 55 127 59 132 68" stroke="#e98263" stroke-width="5" stroke-linecap="round"/>
+    <path d="M124 63L133 69L126 78" stroke="#e98263" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <rect x="13" y="48" width="116" height="28" rx="8" fill="#e7f3e2"/>
-    <circle cx="28" cy="62" r="5" fill="#568d49"/>
-    <path d="M42 62H53M59 58V66M65 54V70M71 59V65M77 56V68M83 60V64M89 57V67M95 61V63M101 59V65M107 62H116" stroke="#568d49" stroke-width="3" stroke-linecap="round"/>
-
-    <path d="M19 91H113M19 104H101M19 117H86" stroke="#9ca3af" stroke-opacity="0.48" stroke-width="5" stroke-linecap="round"/>
-    <path d="M105 102l8 8 14-18" stroke="#79b36a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-
-    <g transform="translate(-20 103)">
-      <rect width="67" height="31" rx="9" fill="#d8fff3" stroke="#111827" stroke-width="4"/>
-      <path d="M14 16h8M27 12v8M33 9v14M39 13v6M45 11v10M51 16h3" stroke="#34a478" stroke-width="3" stroke-linecap="round"/>
+    <g transform="translate(87 75) rotate(2)">
+      <path d="M0 0H62L77 15V82H0Z" fill="#fffdf7" stroke="#111827" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M62 0V15H77" stroke="#111827" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M15 30H59M15 44H62M15 58H52" stroke="#6b7280" stroke-opacity="0.65" stroke-width="5" stroke-linecap="round"/>
+      <path d="M15 70H42" stroke="#e98263" stroke-width="5" stroke-linecap="round"/>
     </g>
   </g>
 
   <text x="60" y="88" fill="#111827" font-family="Comic Sans MS, Chalkboard SE, PingFang SC, Microsoft YaHei, ui-sans-serif, sans-serif" font-size="36" font-weight="800">VoicePen</text>
-  <text x="60" y="130" fill="#374151" font-family="Comic Sans MS, Chalkboard SE, PingFang SC, Microsoft YaHei, ui-sans-serif, sans-serif" font-size="21" font-weight="800">说话 · 转写 · 润色</text>
-  <text x="60" y="165" fill="#6b7280" font-family="Comic Sans MS, Chalkboard SE, PingFang SC, Microsoft YaHei, ui-sans-serif, sans-serif" font-size="17" font-weight="700">随处输入 · 复制粘贴</text>
+  <text x="60" y="130" fill="#374151" font-family="Comic Sans MS, Chalkboard SE, PingFang SC, Microsoft YaHei, ui-sans-serif, sans-serif" font-size="21" font-weight="800">开口说 · 自动成文</text>
+  <text x="60" y="165" fill="#6b7280" font-family="Comic Sans MS, Chalkboard SE, PingFang SC, Microsoft YaHei, ui-sans-serif, sans-serif" font-size="17" font-weight="700">AI 润色 · 随处粘贴</text>
 </svg>
