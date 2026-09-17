@@ -15,10 +15,18 @@
 
 ---
 
-## Route
+## AI Coding
 
 <p align="center">
-  <img src="./assets/animated/open-source-route.svg?v=20260806-4" alt="Build, Agent, Create, Ship — Anjing open-source route" />
+  <a href="https://github.com/anjing-le/anjing-ai-coding">
+    <img src="./assets/animated/open-source-route.svg?v=20260917-1" alt="安静 AI Coding：知识、实践方法、活动；实践反馈持续修正方法与知识" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/anjing-le/anjing-ai-coding/tree/main/knowledge">知识</a> ·
+  <a href="https://github.com/anjing-le/anjing-ai-coding/tree/main/practices">实践方法</a> ·
+  <a href="https://github.com/anjing-le/anjing-ai-coding/tree/main/activities">活动</a>
 </p>
 
 ---

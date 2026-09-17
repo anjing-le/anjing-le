@@ -258,19 +258,34 @@ def card_svg(slug: str, label: str, subtitle: str, detail: str, accent: str, tin
 
 
 def route_svg() -> str:
-    return f"""<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Anjing open-source route</title><desc id="desc">从工程底座、Agent 实战、创作者工具到产品落地的开源路线。</desc>
-{COMMON_STYLE}
-  <rect width="1200" height="340" rx="28" fill="{PAPER}"/>
-  <path d="M35 33C192 20 308 38 469 28C631 18 796 26 1160 34C1172 104 1157 235 1165 306C946 320 743 305 576 315C383 327 190 307 39 314C23 220 39 126 35 33Z" fill="#fffaf0" stroke="{INK}" stroke-opacity=".78" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text class="hand" x="71" y="78" fill="{INK}" font-size="40" font-weight="900">Build → Agent → Create → Ship</text>
-  <text class="hand" x="73" y="111" fill="#5b6472" font-size="21" font-weight="800">把基础设施、AI 实战和真实产品放在同一条公开路线里</text>
-  <path d="M139 228C327 176 469 235 642 194C802 156 940 196 1080 161" stroke="#9ca3af" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 14" class="flow"/>
-  <g transform="translate(75 165)"><g class="bob"><path d="M8 12C28-1 86 2 110 10C113 43 109 88 112 116C72 121 34 114 6 118C0 84 7 47 8 12Z" fill="#eef6ff" stroke="#5b8def" stroke-width="5"/><rect x="26" y="34" width="64" height="48" rx="8" fill="{PAPER}" class="soft-line"/><path d="M27 49h62M39 62l8 7-8 7M55 76h18" stroke="#5b8def" stroke-width="4" fill="none" stroke-linecap="round"/><text class="hand" x="23" y="109" fill="{INK}" font-size="16" font-weight="900">INFRA</text></g></g>
-  <g transform="translate(343 146)"><g class="bob" style="animation-delay:.25s"><path d="M5 10C33 2 96 5 124 12C128 47 122 94 126 123C85 128 39 120 6 124C0 87 5 48 5 10Z" fill="#fff2f3" stroke="#e36d7b" stroke-width="5"/><circle cx="65" cy="55" r="25" fill="{PAPER}" class="soft-line"/><path d="M65 33v44M43 55h44" stroke="#e36d7b" stroke-width="5" stroke-linecap="round"/><circle cx="65" cy="55" r="8" fill="#f3c969" class="pulse"/><text class="hand" x="25" y="113" fill="{INK}" font-size="16" font-weight="900">AGENT</text></g></g>
-  <g transform="translate(641 125)"><g class="bob" style="animation-delay:.5s"><path d="M7 13C36 3 107 6 137 10C142 50 134 102 139 134C93 141 43 131 7 136C0 96 6 53 7 13Z" fill="#f3faef" stroke="#79b36a" stroke-width="5"/><path d="M29 38h84v56H29Z" fill="{PAPER}" class="soft-line"/><path d="M43 77l16-19 13 12 13-17 16 26H43Z" fill="#d9efcf" stroke="#79b36a" stroke-width="3"/><circle cx="96" cy="50" r="7" fill="#f3c969"/><text class="hand" x="30" y="124" fill="{INK}" font-size="16" font-weight="900">CREATOR</text></g></g>
-  <g transform="translate(958 95)"><g class="bob" style="animation-delay:.75s"><path d="M4 11C32 1 101 4 130 10C135 52 128 108 133 143C88 149 42 139 5 144C0 103 4 55 4 11Z" fill="#f4f1ff" stroke="#8975ff" stroke-width="5"/><path d="M28 39h78v61H28Z" fill="{PAPER}" class="soft-line"/><path d="M40 85c13-15 23-9 32-22 8-12 18-4 27-18" stroke="#8975ff" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M90 44h11v12" stroke="#8975ff" stroke-width="4" fill="none"/><text class="hand" x="29" y="130" fill="{INK}" font-size="16" font-weight="900">PRODUCT</text></g></g>
-  <circle r="8" fill="#e98263"><animateMotion dur="7s" repeatCount="indefinite" path="M139 228C327 176 469 235 642 194C802 156 940 196 1080 161"/></circle>
+    return """<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
+<title id="title">安静 AI Coding：知识、实践方法、活动</title>
+<desc id="desc">知识支撑方法，方法指导活动，活动反馈持续修正方法与知识。</desc>
+<style>text{font-family:"Chalkboard SE","Comic Sans MS","PingFang SC","Microsoft YaHei",sans-serif;fill:#10212e}.label{font-size:28px;font-weight:800}.sub{font-size:18px;fill:#61707d}.line{stroke:#10212e;stroke-width:3.5;fill:none;stroke-linecap:round;stroke-linejoin:round}</style>
+<rect width="1200" height="370" rx="28" fill="#fffdf7"/>
+<path d="M35 33 Q190 22 390 30 T1160 34 Q1172 160 1164 335 Q940 348 590 337 T39 339 Q26 190 35 33Z" fill="#fffaf3" stroke="#4c565c" stroke-width="4"/>
+<text x="72" y="87" font-size="39" font-weight="900">Learn → Practice → Grow</text>
+<text x="74" y="122" class="sub">安静 AI Coding · 把理解变成方法，在实践中持续打磨</text>
+<path d="M363 221 H423 M753 221 H813" stroke="#a0aab5" stroke-width="4" stroke-dasharray="6 8"/>
+<path d="M413 214 L423 221 L413 228 M803 214 L813 221 L803 228" fill="none" stroke="#a0aab5" stroke-width="3"/>
+<g transform="translate(74 158)">
+<path d="M3 5 Q130 -3 278 5 L282 111 Q140 118 0 111Z" fill="#eff7ff" stroke="#499ce9" stroke-width="4"/>
+<path d="M21 29 Q39 24 56 31 Q74 24 91 29 V74 Q74 69 56 77 Q39 69 21 74Z M56 31 V77" class="line"/>
+<text x="110" y="47" class="label">知识</text><text x="110" y="81" class="sub">理解问题 · 查找依据</text>
+</g>
+<g transform="translate(444 158)">
+<path d="M3 5 Q130 -3 278 5 L282 111 Q140 118 0 111Z" fill="#f0f8ee" stroke="#7db97a" stroke-width="4"/>
+<rect x="27" y="24" width="54" height="61" rx="5" class="line"/><path d="M38 41 L44 47 L54 35 M61 42 H70 M38 63 L44 69 L54 57 M61 64 H70" class="line"/>
+<text x="101" y="47" class="label">实践方法</text><text x="101" y="81" class="sub">经验归纳 · 验证边界</text>
+</g>
+<g transform="translate(814 158)">
+<path d="M3 5 Q130 -3 278 5 L282 111 Q140 118 0 111Z" fill="#f4f0ff" stroke="#9685ed" stroke-width="4"/>
+<path d="M25 31 H84 V74 H25Z M41 87 H68 M54 75 V86 M47 43 L66 53 L47 64Z" class="line"/>
+<text x="111" y="47" class="label">活动</text><text x="111" y="81" class="sub">动手实践 · 检验方法</text>
+</g>
+<path d="M958 281 V307 H222 V283 M215 291 L222 283 L229 291" stroke="#b4a5ce" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+<rect x="438" y="291" width="326" height="30" rx="12" fill="#fffaf3"/>
+<text x="601" y="312" text-anchor="middle" font-size="17" fill="#756684">实践反馈，持续修正方法与知识</text>
 </svg>
 """
 
