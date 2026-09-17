@@ -19,7 +19,7 @@
 
 <p align="center">
   <a href="https://github.com/anjing-le/happy-llm-journey">
-    <img src="./assets/animated/open-source-route.svg?v=20260917-2" alt="Happy LLM Journey：知识、实践方法、活动；实践反馈持续修正方法与知识" />
+    <img src="./assets/animated/open-source-route.svg?v=20260918-1" alt="Happy LLM Journey：知识、实践方法、活动；实践反馈持续修正方法与知识" />
   </a>
 </p>
 
