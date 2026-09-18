@@ -15,18 +15,10 @@
 
 ---
 
-## Happy LLM Journey
-
 <p align="center">
   <a href="https://github.com/anjing-le/happy-llm-journey">
-    <img src="./assets/animated/open-source-route.svg?v=20260918-1" alt="Happy LLM Journey：知识、实践方法、活动；实践反馈持续修正方法与知识" />
+    <img src="./assets/journey-poster.png" alt="Happy LLM Journey：知识、实践方法、活动；一起学，一起做，不断变好" />
   </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/anjing-le/happy-llm-journey/tree/main/knowledge">知识</a> ·
-  <a href="https://github.com/anjing-le/happy-llm-journey/tree/main/practices">实践方法</a> ·
-  <a href="https://github.com/anjing-le/happy-llm-journey/tree/main/activities">活动</a>
 </p>
 
 ---
