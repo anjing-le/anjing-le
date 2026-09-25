@@ -15,18 +15,20 @@
 
 ---
 
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/anjing-le/happy-llm-journey"><img width="100%" src="./assets/journey-poster.png" alt="Happy LLM Journey：知识、最佳实践、活动" /></a><br />
-      <a href="https://github.com/anjing-le/happy-llm-journey">Happy LLM Journey</a>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/anjing-le/happy-finance-journey"><img width="100%" src="./assets/finance-journey-poster.png" alt="Happy Finance Journey：知识、最佳实践、活动" /></a><br />
-      <a href="https://github.com/anjing-le/happy-finance-journey">Happy Finance Journey</a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/anjing-le/happy-llm-journey"><img width="480" src="./assets/journey-poster.png" alt="Happy LLM Journey：知识、最佳实践、活动" /></a><br />
+  <a href="https://github.com/anjing-le/happy-llm-journey">Happy LLM Journey</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/anjing-le/happy-finance-journey"><img width="480" src="./assets/finance-journey-poster.png" alt="Happy Finance Journey：知识、最佳实践、活动" /></a><br />
+  <a href="https://github.com/anjing-le/happy-finance-journey">Happy Finance Journey</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/anjing-le/happy-music-journey"><img width="480" src="./assets/music-journey-poster.png" alt="Happy Music Journey：知识、最佳实践、活动" /></a><br />
+  <a href="https://github.com/anjing-le/happy-music-journey">Happy Music Journey</a>
+</p>
 
 ---
 
