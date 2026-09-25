@@ -15,11 +15,18 @@
 
 ---
 
-<p align="center">
-  <a href="https://github.com/anjing-le/happy-llm-journey">
-    <img src="./assets/journey-poster.png" alt="Happy LLM Journey：知识、实践方法、活动；一起学，一起做，不断变好" />
-  </a>
-</p>
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/anjing-le/happy-llm-journey"><img width="100%" src="./assets/journey-poster.png" alt="Happy LLM Journey：知识、最佳实践、活动" /></a><br />
+      <a href="https://github.com/anjing-le/happy-llm-journey">Happy LLM Journey</a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/anjing-le/happy-finance-journey"><img width="100%" src="./assets/finance-journey-poster.png" alt="Happy Finance Journey：知识、最佳实践、活动" /></a><br />
+      <a href="https://github.com/anjing-le/happy-finance-journey">Happy Finance Journey</a>
+    </td>
+  </tr>
+</table>
 
 ---
 
