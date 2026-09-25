@@ -19,15 +19,15 @@
   <tr>
     <td width="270" nowrap="nowrap" align="center">
       <a href="https://github.com/anjing-le/happy-llm-journey"><img width="240" src="./assets/journey-poster.png" alt="Happy LLM Journey：知识、最佳实践、活动" /></a><br />
-      <a href="https://github.com/anjing-le/happy-llm-journey">Happy LLM Journey · 知识 · 最佳实践 · 活动</a>
+      <a href="https://github.com/anjing-le/happy-llm-journey">Happy LLM Journey · 知识·实践·活动</a>
     </td>
     <td width="270" nowrap="nowrap" align="center">
       <a href="https://github.com/anjing-le/happy-finance-journey"><img width="240" src="./assets/finance-journey-poster.png" alt="Happy Finance Journey：知识、最佳实践、活动" /></a><br />
-      <a href="https://github.com/anjing-le/happy-finance-journey">Happy Finance Journey · 知识 · 最佳实践 · 活动</a>
+      <a href="https://github.com/anjing-le/happy-finance-journey">Happy Finance Journey · 知识·实践·活动</a>
     </td>
     <td width="270" nowrap="nowrap" align="center">
       <a href="https://github.com/anjing-le/happy-music-journey"><img width="240" src="./assets/music-journey-poster.png" alt="Happy Music Journey：知识、最佳实践、活动" /></a><br />
-      <a href="https://github.com/anjing-le/happy-music-journey">Happy Music Journey · 知识 · 最佳实践 · 活动</a>
+      <a href="https://github.com/anjing-le/happy-music-journey">Happy Music Journey · 知识·实践·活动</a>
     </td>
   </tr>
 </table>
