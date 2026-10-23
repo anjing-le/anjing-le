@@ -23,3 +23,9 @@
     <img width="100%" src="./assets/macos-x-entry-20261023.png" alt="macos-x：最好用的macos工具" />
   </a>
 </p>
+
+<p align="center">
+  <a href="https://github.com/anjing-le/happy-creator-journey">
+    <img width="100%" src="./assets/happy-creator-journey-entry-20261023.png" alt="Happy Creator Journey：把成长与创造，分享给更多人" />
+  </a>
+</p>
