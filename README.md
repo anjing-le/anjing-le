@@ -1,31 +1,31 @@
 <p align="center">
   <a href="https://anjing.cc">
-    <img width="100%" src="./assets/profile-creation-world-j-20261022.png" alt="安静在左侧执笔，让草稿长成鲜活的世界；人们在其中探索、创造，再走向更大的可能。点击进入个人主页 anjing.cc。" />
+    <img width="100%" src="./assets/profile-creation-world-j-20261022.png" alt="Anjing draws a world where people explore, create, and grow. Visit anjing.cc." />
   </a>
 </p>
 
 ---
 
 <p align="center">
-  <a href="https://github.com/anjing-le/happy-llm-journey"><img width="31%" src="./assets/journey-poster.png" alt="Happy LLM Journey：知识、最佳实践、活动" /></a>
-  <a href="https://github.com/anjing-le/happy-finance-journey"><img width="31%" src="./assets/finance-journey-poster.png" alt="Happy Finance Journey：知识、最佳实践、活动" /></a>
-  <a href="https://github.com/anjing-le/happy-music-journey"><img width="31%" src="./assets/music-journey-poster.png" alt="Happy Music Journey：知识、最佳实践、活动" /></a>
+  <a href="https://github.com/anjing-le/happy-llm-journey"><img width="31%" src="./assets/llm-entry-en-20261102.png" alt="Happy LLM Journey: Knowledge, Best Practices, and Activities" /></a>
+  <a href="https://github.com/anjing-le/happy-finance-journey"><img width="31%" src="./assets/finance-entry-en-20261102.png" alt="Happy Finance Journey: Knowledge, Best Practices, and Activities" /></a>
+  <a href="https://github.com/anjing-le/happy-music-journey"><img width="31%" src="./assets/music-entry-en-20261102.png" alt="Happy Music Journey: Knowledge, Best Practices, and Activities" /></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/anjing-le/ai-native-company">
-    <img width="100%" src="./assets/ai-native-company-entry-20261023.png" alt="ai-native-company：持续进化的 AI 原生公司基建" />
+    <img width="100%" src="./assets/company-entry-en-20261102.png" alt="ai-native-company: Evolving Infrastructure for AI-Native Companies" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/anjing-le/macos-x">
-    <img width="100%" src="./assets/macos-x-entry-20261023.png" alt="macos-x：最好用的macos工具" />
+    <img width="100%" src="./assets/macos-entry-en-20261102.png" alt="macos-x: The Best macOS Tools" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/anjing-le/happy-creator-journey">
-    <img width="100%" src="./assets/happy-creator-journey-entry-20261023.png" alt="Happy Creator Journey：把成长与创造，分享给更多人" />
+    <img width="100%" src="./assets/creator-entry-en-20261102.png" alt="Happy Creator Journey: Share What You Learn and Create" />
   </a>
 </p>
