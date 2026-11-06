@@ -25,6 +25,12 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/anjing-le/anjing-englishx">
+    <img width="100%" src="./assets/englishx-entry-en-20261106.png" alt="EnglishX: Learn English Through Scenes You Love. Watch, follow along, and understand in context." />
+  </a>
+</p>
+
+<p align="center">
   <a href="https://github.com/anjing-le/happy-creator-journey">
     <img width="100%" src="./assets/creator-entry-en-20261102.png" alt="Happy Creator Journey: Share What You Learn and Create" />
   </a>
