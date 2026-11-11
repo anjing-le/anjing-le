@@ -112,6 +112,24 @@ def points(snapshot):
     return result
 
 
+def smooth_points(snapshot):
+    """Monotone visual interpolation through real event totals; never overshoot."""
+    exact = points(snapshot)  # Validate before producing any visual output.
+    nodes = {exact[0][0]: 0}
+    for date, count in exact[1:]:
+        nodes[date] = count  # Combine simultaneous events at their true timestamp.
+    nodes = sorted(nodes.items())
+    result = [nodes[0]]
+    for (start, low), (end, high) in zip(nodes, nodes[1:]):
+        for index in range(1, 65):
+            t = index / 64
+            # Cubic Bezier with horizontal endpoint tangents: C1 continuous,
+            # passes through every observation, bounded and non-decreasing.
+            value = low + (high - low) * (3*t*t - 2*t*t*t)
+            result.append((start + (end-start)*t, value))
+    return result
+
+
 def render(snapshot, output):
     width, height = 1800, 660
     im = Image.new('RGB', (width, height), 'white')
@@ -143,7 +161,7 @@ def render(snapshot, output):
         text(x0 - 18, y, str(tick), 25, '#555b64', 'rm')
     draw.line((x0, y0 - 6, x0, y1, x1 + 8, y1), fill='#4b5058', width=3)
     text(x0 - 45, y0 - 45, 'Stars', 26)
-    coords = [xy(item) for item in data]
+    coords = [xy(item) for item in smooth_points(snapshot)]
     # Same exact vertices for both strokes: texture must not alter values.
     draw.line(coords, fill='#7cc6f0', width=7)
     draw.line(coords, fill='#258bd0', width=3)
@@ -164,14 +182,15 @@ def render(snapshot, output):
         text(x, y1+15, label, 23, '#555b64', 'la' if index == 0 else 'ra' if index == len(dates)-1 else 'ma')
     text(1735, 565, 'Time (UTC)', 22, '#555b64', 'ra')
     text(445, 584, 'Current stargazers by original star date; removed stars excluded.', 22, '#666c74')
-    text(445, 617, 'Not historical net totals. Updated ' + end.strftime('%Y-%m-%d %H:%M UTC'), 21, '#666c74')
+    text(445, 617, 'Dots: real data; curve: smoothed guide. Updated ' + end.strftime('%Y-%m-%d %H:%M UTC'), 21, '#666c74')
     output = Path(output)
     output.parent.mkdir(parents=True, exist_ok=True)
     # Prepare both outputs before replacing; API failures never overwrite existing assets.
     with tempfile.TemporaryDirectory(dir=output.parent) as temp:
         png, raw = Path(temp)/'chart.png', Path(temp)/'chart.json'
         im.save(png, optimize=True)
-        raw.write_text(json.dumps(snapshot, indent=2) + '\n')
+        raw.write_text(json.dumps({**snapshot, 'visualization':
+            'Dots are actual event totals; the monotone smoothed curve is visual interpolation, not observed intermediate counts.'}, indent=2) + '\n')
         os.replace(png, output)
         os.replace(raw, output.with_suffix('.json'))
 

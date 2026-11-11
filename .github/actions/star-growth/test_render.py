@@ -27,6 +27,17 @@ class GrowthTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             growth.points(data)
 
+    def test_smoothing_is_monotone_and_hits_real_events(self):
+        times = ['2026-11-02T00:00:00Z', '2026-11-02T00:00:00Z', '2026-11-08T00:00:00Z']
+        data = self.snapshot(times)
+        curve = growth.smooth_points(data)
+        values = [value for _, value in curve]
+        self.assertEqual(values, sorted(values))
+        self.assertEqual((min(values), max(values)), (0, 3))
+        self.assertIn((growth.timestamp(times[0]), 2), curve)
+        self.assertIn((growth.timestamp(times[2]), 3), curve)
+        self.assertTrue(all(value == 0 for _, value in growth.smooth_points(self.snapshot([]))))
+
     def test_rejects_out_of_range_event(self):
         with self.assertRaises(ValueError):
             growth.points(self.snapshot(['2025-01-01T00:00:00Z']))

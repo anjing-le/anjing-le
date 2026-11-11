@@ -2,7 +2,7 @@
 
 The illustration is decorative. Every chart vertex, tick, date and total is rendered from GitHub data, never ImageGen.
 
-The cohort chart reconstructs the original star dates of **current stargazers**. It excludes removed stars and is **not a historical net-total series**. This limitation is printed on every image. The zero baseline is repository creation, timestamps and labels use UTC, and step holds never interpolate fictional growth. Small counts retain integer axes. Empty data stays flat at zero.
+The cohort chart reconstructs the original star dates of **current stargazers**. It excludes removed stars and is **not a historical net-total series**. This limitation is printed on every image. The zero baseline is repository creation; timestamps and labels use UTC. Dots mark real event totals; a monotone cubic curve connects them as a visual guide, not observed intermediate counts. The curve passes through observations without overshoot; simultaneous events are combined. Both the PNG footer and source JSON disclose interpolation. Small counts retain integer axes. Empty data stays flat at zero.
 
 REST star timestamps are used first, with GraphQL fallback for repository Actions tokens. Pagination is bounded; the total is checked against repository metadata before/after fetching. Incomplete, unauthorized or changing responses fail without overwriting the last good chart. Only timestamps and aggregate counts are saved; no usernames, IDs or credentials enter published artifacts.
 

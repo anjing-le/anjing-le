@@ -1,6 +1,6 @@
 # Decorative art only
 
-Current clothing revision (built-in imagegen, identity-preserve): change only the black hoodie to a black crew-neck GitHub long-sleeve shirt, no hood, with a hand-drawn white Octocat emblem on the chest. Preserve yellow messy hair, blue headphones, round dot-eye face, smile, blush, kneeling pose, gray trousers, watering can, sprout and transparent background. Keep rough crayon fills and uneven marker outlines. No chart elements or text.
+Current artwork: restored the original black hoodie illustration (no GitHub shirt). No regeneration; original character, pose and crayon texture preserved exactly.
 
 Generated with built-in imagegen, transparent background. All chart elements are generated separately from GitHub data.
 
