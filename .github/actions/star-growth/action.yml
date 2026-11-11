@@ -1,0 +1,20 @@
+name: Anjing Star Growth
+description: Render real current-stargazer dates in the Anjing handmade style
+inputs:
+  repository:
+    description: Repository owner/name
+    required: true
+  token:
+    description: GitHub token with access to this repository
+    required: true
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: python -m pip install --disable-pip-version-check 'Pillow==11.3.0'
+    - shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.token }}
+        CHART_REPOSITORY: ${{ inputs.repository }}
+        ACTION_ROOT: ${{ github.action_path }}
+      run: python "$ACTION_ROOT/render.py" --repository "$CHART_REPOSITORY" --output assets/star-growth.png
