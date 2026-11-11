@@ -17,6 +17,19 @@ class GrowthTests(unittest.TestCase):
     def test_zero_is_flat(self):
         self.assertEqual([value for _, value in growth.points(self.snapshot([]))], [0, 0])
 
+    def test_month_ticks_short_and_across_year(self):
+        ticks = growth.month_ticks(growth.timestamp('2026-11-06T09:00:00Z'), growth.timestamp('2026-11-11T12:00:00Z'))
+        self.assertEqual([tick.strftime('%Y-%m-%d') for tick in ticks], ['2026-11-01'])
+        ticks = growth.month_ticks(growth.timestamp('2026-12-30T09:00:00Z'), growth.timestamp('2027-02-03T00:00:00Z'))
+        self.assertEqual([tick.strftime('%Y-%m') for tick in ticks], ['2026-12', '2027-01', '2027-02'])
+
+    def test_long_history_has_at_most_seven_month_labels(self):
+        ticks = growth.month_ticks(growth.timestamp('2020-01-01T00:00:00Z'), growth.timestamp('2026-11-11T12:00:00Z'))
+        self.assertEqual(len(ticks), 7)
+        self.assertEqual(ticks[0].strftime('%Y-%m'), '2020-01')
+        self.assertEqual(ticks[-1].strftime('%Y-%m'), '2026-11')
+        self.assertTrue(all(tick.day == 1 for tick in ticks))
+
     def test_exact_steps_and_same_time_events(self):
         t = '2026-11-06T09:10:39Z'
         self.assertEqual([value for _, value in growth.points(self.snapshot([t, t]))], [0, 0, 1, 1, 2, 2])

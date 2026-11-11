@@ -130,6 +130,18 @@ def smooth_points(snapshot):
     return result
 
 
+def month_ticks(start, end):
+    """Calendar-month ticks, thinned evenly for long-running projects."""
+    month = start.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+    months = []
+    while month <= end:
+        months.append(month)
+        month = month.replace(year=month.year+1, month=1) if month.month == 12 else month.replace(month=month.month+1)
+    if len(months) > 7:
+        months = [months[round(index*(len(months)-1)/6)] for index in range(7)]
+    return months
+
+
 def render(snapshot, output):
     width, height = 1800, 660
     im = Image.new('RGB', (width, height), 'white')
@@ -148,6 +160,8 @@ def render(snapshot, output):
     x0, x1, y0, y1 = 460, 1715, 220, 510
     data = points(snapshot)
     start, end = data[0][0], data[-1][0]
+    # Begin the axis at the calendar month; no data is invented before creation.
+    start = start.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
     duration = max((end - start).total_seconds(), 1)
     step = max(1, math.ceil(max(1, snapshot['current_stars']) / 4))
     ceiling = max(step, math.ceil(snapshot['current_stars'] / step) * step)
@@ -171,16 +185,13 @@ def render(snapshot, output):
         draw.ellipse((x-4, y-4, x+4, y+4), fill='#258bd0')
     latest_x, latest_y = coords[-1]
     draw.ellipse((latest_x-7, latest_y-7, latest_x+7, latest_y+7), fill='#e8b72b')
-    # Include actual creation and snapshot dates; no synthetic milestones.
-    dates = [start, end] if duration < 3*86400 else [start, start+(end-start)/2, end]
+    dates = month_ticks(start, end)
     for index, value in enumerate(dates):
         x, _ = xy((value, 0))
         draw.line((x, y1, x, y1+8), fill='#4b5058', width=2)
-        label = value.strftime('%Y-%m-%d')
-        if duration < 86400:
-            label += value.strftime(' %H:%M')
-        text(x, y1+15, label, 23, '#555b64', 'la' if index == 0 else 'ra' if index == len(dates)-1 else 'ma')
-    text(1735, 565, 'Time (UTC)', 22, '#555b64', 'ra')
+        label = value.strftime('%b %Y')
+        text(x, y1+15, label, 29, '#555b64', 'la' if index == 0 else 'ra' if x > x1-90 else 'ma')
+    text(1735, 565, 'Month (UTC)', 22, '#555b64', 'ra')
     text(445, 584, 'Current stargazers by original star date; removed stars excluded.', 22, '#666c74')
     text(445, 617, 'Dots: real data; curve: smoothed guide. Updated ' + end.strftime('%Y-%m-%d %H:%M UTC'), 21, '#666c74')
     output = Path(output)

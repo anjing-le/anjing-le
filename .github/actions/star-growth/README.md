@@ -9,3 +9,5 @@ REST star timestamps are used first, with GraphQL fallback for repository Action
 Each repository updates its own assets using its built-in GITHUB_TOKEN. No PAT or third-party chart service is needed when the workflow token can read its own timeline. Workflows run once daily and may also be dispatched manually. GitHub image caching means a README may not immediately display the newest image.
 
 Artwork: generated with built-in imagegen; see artwork.prompt.md. Font: Handlee from google/fonts, under SIL OFL, bundled with its unchanged license. Pillow is pinned to 11.3.0. Application builds, releases and OTA are unrelated to this chart. The renderer also requires GitHub CLI (preinstalled on GitHub-hosted Ubuntu runners).
+
+The horizontal axis uses calendar-month labels (e.g. Oct 2026), at most seven to avoid crowding over long histories. Short histories keep a single month label, not daily ticks. The domain begins at the creation month, but the curve begins at actual repository creation; no pre-creation zero data or future observations are generated. Event timestamps remain exact; monthly labels do not aggregate stars.
